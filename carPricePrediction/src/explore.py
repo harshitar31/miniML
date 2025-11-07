@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 df = pd.read_csv(r"data\raw\CarPrice_Assignment.csv")
 
@@ -17,3 +19,5 @@ print()
 
 print("Info")
 print(df.info())
+
+sns.pairplot(df)
