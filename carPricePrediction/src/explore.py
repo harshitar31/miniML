@@ -31,4 +31,4 @@ for i in cols:
     k+=1
     
 plt.tight_layout()
-plt.savefig("pairplot of the dataset.png")
+plt.savefig("src/eda.png")
